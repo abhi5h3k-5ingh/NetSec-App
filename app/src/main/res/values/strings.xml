@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">NetSec</string>
+    <string name="start_capture">Start Capture</string>
+    <string name="detect">Detect</string>
+    <string name="received_packets">Received Packets:</string>
+</resources>
