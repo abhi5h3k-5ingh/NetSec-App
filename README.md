@@ -1,5 +1,5 @@
 # Port scanning Detection App
-##Setup Instruction
+Setup Instruction
 1. It is advisable to run the app in actual device instead of emulator.
 2. Run the app and give access to external storage by following below instruction.
 3. From setting of the phone, give "access to manage all files" permission:
