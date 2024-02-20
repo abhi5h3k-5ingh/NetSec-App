@@ -270,7 +270,7 @@ class MainActivity : AppCompatActivity() {
             Log.d("Prediction: $meanPrediction", "Malicious Network found, Disconnect quickly")
         } else {
             // Safe Network
-            predict?.setText("Safe Network Detected")
+            predict?.setText("Safe Network Detected")  // safe network
             Log.d("Prediction: $meanPrediction","Safe Network")
         }
 
@@ -396,11 +396,11 @@ class MainActivity : AppCompatActivity() {
         intent.putExtra("collector_port", "5123")
 
 //         Packets not storing in file, it will display in screen
-//        intent.putExtra("pcap_dump_mode", "udp_exporter");
+        intent.putExtra("pcap_dump_mode", "udp_exporter");
 
         // Packets storing in file.
-        intent.putExtra("pcap_dump_mode", "pcap_file")
-        intent.putExtra("pcap_name", "traffic1.pcap")
+//        intent.putExtra("pcap_dump_mode", "pcap_file")
+//        intent.putExtra("pcap_name", "traffic1.pcap")
         captureStartLauncher.launch(intent)
     }
 
